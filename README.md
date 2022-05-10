@@ -8,9 +8,9 @@ These are the scripts that I created while in my Java class (IT-145) at SNHU.
 
 If you have found these to be helpful, please consider sponsoring my work or donating.
 
-All Challenge Activities and Labs are from the zyBooks program. The Class Assignments are what is turned in via online learning system.
+All Challenge Activities and Labs are from the zyBooks program. The Class Assignments are what is turned in via online learning systems.
 
-### Java Scripts
+### Scripts
 
 <details>
 <summary>Chapter 1 Labs</summary>
