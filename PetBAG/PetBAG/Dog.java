@@ -1,3 +1,11 @@
+/*
+Kyle Reddoch
+Dog.java
+IT-145
+Southern New Hampshire University
+Professor: Ahlam Alhweiti
+ */
+
 package PetBAG; // Package name
 
 public class Dog extends Pet{ //Dog class derives from Pet
