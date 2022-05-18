@@ -26,6 +26,14 @@ Asks the user for an integer. Then outputs the users input, then outputs it squa
 Asks the user for an integer, double, character, and string. Outputs the inputs in the following order: integer, double, character, string. Then outputs the inputs in the following order: string, character, double, integer. Then casts the double to an integer and outputs the integer.
 </details>
 
+<details>
+<summary>Chapter 2 Labs</summary>
+
+**Lab 2.17**
+\
+Write a method drivingCost() with input parameters milesPerGallon, dollarsPerGallon, and milesDriven that returns the dollar cost to drive those miles. Define that method in a program whose inputs are the car's miles per gallon and the price of gas in dollars per gallon (both doubles). Output the gas cost for 10 miles, 50 miles, and 400 miles, by calling your drivingCost() method three times.
+</details>
+
 ### Class Assignments
 <details>
 <summary>Module 2</summary>
@@ -33,7 +41,7 @@ We implemented either the Dog.java class or the Cat.java class based on the spec
 
 I wrote both the Dog.java class and the Cat.java class for a reference for anyone who may need to use the classes.
 
-**Note:** Both the Dog.java class and the Cat.java class are in the PetBAG package folder as they are part of the PetBAG project.
+**Note:** Both the Dog.java class and the Cat.java class are in the PetBAG package folder as they are part of the PetBAG project later in the class.
 
 [![Dog.java class](https://img.shields.io/badge/Dog.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/PetBAG/Dog.java)
 
