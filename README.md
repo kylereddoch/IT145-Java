@@ -34,6 +34,18 @@ Asks the user for an integer, double, character, and string. Outputs the inputs 
 Write a method drivingCost() with input parameters milesPerGallon, dollarsPerGallon, and milesDriven that returns the dollar cost to drive those miles. Define that method in a program whose inputs are the car's miles per gallon and the price of gas in dollars per gallon (both doubles). Output the gas cost for 10 miles, 50 miles, and 400 miles, by calling your drivingCost() method three times.
 </details>
 
+<details>
+<summary>Chapter 3 Labs</summary>
+
+**Lab 3.35**
+\
+This program outputs a downwards facing arrow composed of a rectangle and a right triangle. The arrow dimensions are defined by user specified arrow base height, arrow base width, and arrow head width.
+
+**Lab 3.36**
+\
+Given a line of text as input, output the number of characters excluding spaces, periods, exclamation points, or commas.
+</details>
+
 ### Class Assignments
 <details>
 <summary>Module 2</summary>
