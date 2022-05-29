@@ -15,7 +15,7 @@ There are quite a few challenges in each chapter and quite a few chapters. You c
 ### Labs
 
 <details>
-<summary>Chapter 1 Labs</summary>
+<summary>Module 1 Labs</summary>
 
 **Lab 1.37**
 \
@@ -27,7 +27,7 @@ Asks the user for an integer, double, character, and string. Outputs the inputs 
 </details>
 
 <details>
-<summary>Chapter 2 Labs</summary>
+<summary>Module 2 Labs</summary>
 
 **Lab 2.17**
 \
@@ -35,7 +35,7 @@ Write a method drivingCost() with input parameters milesPerGallon, dollarsPerGal
 </details>
 
 <details>
-<summary>Chapter 3 Labs</summary>
+<summary>Module 3 Labs</summary>
 
 **Lab 3.35**
 \
@@ -46,7 +46,16 @@ This program outputs a downwards facing arrow composed of a rectangle and a righ
 Given a line of text as input, output the number of characters excluding spaces, periods, exclamation points, or commas.
 </details>
 
+<details>
+<summary>Module 4 Labs</summary>
+
+**Lab 4.5**
+\
+Prompt the user to enter five numbers, being five people's weights. Store the numbers in an array of doubles. Output the array's numbers on one line, each number followed by one space. Also output the total weight, by summing the array's elements. Also output the average of the array's elements. Also output the max array element.
+</details>
+
 ### Class Assignments
+
 <details>
 <summary>Module 2</summary>
 We implemented either the Dog.java class or the Cat.java class based on the specifications in the UML Class diagram.
@@ -55,13 +64,22 @@ I wrote both the Dog.java class and the Cat.java class for a reference for anyon
 
 **Note:** Both the Dog.java class and the Cat.java class are in the PetBAG package folder as they are part of the PetBAG project later in the class.
 
-[![Dog.java class](https://img.shields.io/badge/Dog.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/PetBAG/Dog.java)
+[![Dog.java class](https://img.shields.io/badge/Dog.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/Dog.java)
 
-[![Cat.java class](https://img.shields.io/badge/Cat.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/PetBAG/Cat.java)
+[![Cat.java class](https://img.shields.io/badge/Cat.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/Cat.java)
+</details>
+
+<details>
+<summary>Module 4</summary>
+Created the Pet.java class based on the UML Class diagram.
+
+<br>
+
+[![Pet.java class](https://img.shields.io/badge/Pet.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/Pet.java)
 </details>
 
 ### Projects
 
 [![Project One](https://img.shields.io/badge/Project%20One-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/)
-<br>
+
 Preliminary work for a local pet boarding and grooming business. Developing a Pet.java class based on the UML diagram.

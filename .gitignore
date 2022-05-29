@@ -24,3 +24,5 @@ hs_err_pid*
 
 .idea/
 /IT145-Java.iml
+.vscode/
+PetBAG/.DS_Store
