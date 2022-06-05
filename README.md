@@ -54,6 +54,14 @@ Given a line of text as input, output the number of characters excluding spaces,
 Prompt the user to enter five numbers, being five people's weights. Store the numbers in an array of doubles. Output the array's numbers on one line, each number followed by one space. Also output the total weight, by summing the array's elements. Also output the average of the array's elements. Also output the max array element.
 </details>
 
+<details>
+<summary>Module 5 Labs</summary>
+
+**Online Shopping Cart**
+\
+This consisted of editing two different .java files. These are in the OnlineShoppingCart folder.
+</details>
+
 ### Class Assignments
 
 <details>
@@ -76,6 +84,15 @@ Created the Pet.java class based on the UML Class diagram.
 <br>
 
 [![Pet.java class](https://img.shields.io/badge/Pet.java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/Pet.java)
+</details>
+
+<details>
+<summary>Module 5</summary>
+Implemented the Monkey.java class based off the specification documentation and edited the Driver.java class.
+
+<br>
+
+[![Grazioso Salvare](https://img.shields.io/badge/Grazioso%20Salvare-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Grazioso/)
 </details>
 
 ### Projects
