@@ -95,6 +95,15 @@ Implemented the Monkey.java class based off the specification documentation and 
 [![Grazioso Salvare](https://img.shields.io/badge/Grazioso%20Salvare-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Grazioso/)
 </details>
 
+<details>
+<summary>Module 6</summary>
+Debugged the given Paint1.java file first. Then added loops to the Paint1.java file to validate all user input and handle exceptions so that all tests pass.
+
+<br>
+
+[![Paint1](https://img.shields.io/badge/Paint1-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Paint1/)
+</details>
+
 ### Projects
 
 [![Project One](https://img.shields.io/badge/Project%20One-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/)
