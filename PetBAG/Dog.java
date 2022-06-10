@@ -8,8 +8,6 @@ Professor: Ahlam Alhweiti
 
 package PetBAG; // Package name
 
-import java.util.Scanner;
-
 public class Dog extends Pet {
 
     //declare instance Variables

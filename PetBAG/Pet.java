@@ -9,7 +9,6 @@ Professor: Ahlam Alhweiti
 package PetBAG;
 
 import java.util.Scanner;
-import java.util.Date;
 
 public class Pet {
     public Scanner input = new Scanner(System.in); // instance variables, this.petAge = petAge
