@@ -104,8 +104,21 @@ Debugged the given Paint1.java file first. Then added loops to the Paint1.java f
 [![Paint1](https://img.shields.io/badge/Paint1-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Paint1/)
 </details>
 
+<details>
+<summary>Module 7</summary>
+Added code to calculate the amount of cans needed to paint the wall based off the size of the wall and the amount of paint needed.
+
+<br>
+
+[![Paint2](https://img.shields.io/badge/Paint2-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Paint2/)
+</details>
+
 ### Projects
 
 [![Project One](https://img.shields.io/badge/Project%20One-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/PetBAG/)
 
-Preliminary work for a local pet boarding and grooming business. Developing a Pet.java class based on the UML diagram.
+Preliminary work for a local pet boarding and grooming business (PetBAG). Developing a Pet.java class based on the UML diagram.
+
+[![Project Two](https://img.shields.io/badge/Project%20Two-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://github.com/kylereddoch/IT145-Java/blob/main/Grazioso/)
+
+Work done for Grazioso Salvare, an international search and rescue animal company. Developed the Monkey.java class based on the UML diagram. Edited the Driver.java class to display the start menu, handle user input, handle validation, and take appropriate actions based on the user input.
