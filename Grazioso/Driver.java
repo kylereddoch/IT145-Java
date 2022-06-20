@@ -1,38 +1,49 @@
-/**
- * Author: Kyle Reddoch
- * Professor: Ahlam Alhweiti
- * Southern New Hampshire University
- * Version: 1.0
- * 
- */
-
 package Grazioso;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- * A class that displays menu options to intake new monkeys and dogs, reserve animals, and print lists of animals
+ * <p>Driver is the base class that displays the menu options employees of Grazioso Salvare can use to:</p>
+ * <ol>
+ * <li>intake new monkeys and dogs</li>
+ * <li>reserve animals</li>
+ * <li>print a list of animals</li>
+ * </ol>
+ * <p>This was created for my Java programming class at Southern New Hampshire University (IT145).</p>
+ * <p>Professor: Ahlam Alhweiti</p>
+ * 
+ * @author Kyle Reddoch
+ * @version %I%, %G%
  **/
-
 public class Driver {
     private static ArrayList < Dog > dogList = new ArrayList<>();
     private static ArrayList < Monkey > monkeyList = new ArrayList<>();
 
     /**
-     * Displays menu options that determines if input selection is valid on a loop and then redirects to 
-     * appropriate method once valid input is taken.
+     * Initlizes both the Dog and Monkey Array Lists. Starts the Rescue Animal System Menu. It determines if the input selection is valid on using a loop and then redirects to the appropriate selection once a valid input is taken.
+     * 
      * @param args none
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #displayMenu()
+     * @see #intakeNewDog()
+     * @see #intakeNewMonkey()
+     * @see #reserveAnimal()
+     * @see #printDogs()
+     * @see #printMonkey()
+     * @see #printAnimals()
      */
-
     public static void main(String[] args) {
         Scanner scnr = new Scanner(System.in);
 
-        initializeDogList();
-        initializeMonkeyList();
+        initializeDogList(); // Initializes the Dog Array List
+        initializeMonkeyList(); // Initializes the Monkey Array List
 
-        char input = 0;
-        int input1 = Character.getNumericValue(input);
+        char input = 0; // Initializes the input variable to 0
+        int input1 = Character.getNumericValue(input); // Initializes the input1 variable to 0
         boolean isValidSelection = true; // To control do-while loop
 
         displayMenu(); //Starts Menu//
@@ -42,7 +53,7 @@ public class Driver {
                 input = scnr.nextLine().charAt(0); //Takes users input for menu selection
 
                 if (input == 'q') { //Quits Menu
-                    System.out.print("good bye");
+                    System.out.print("Good Bye!");
                     System.exit(0);
                 } else {
                     input1 = Character.getNumericValue(input); //Changes input from Char to Int
@@ -56,7 +67,7 @@ public class Driver {
             }
         } while (!isValidSelection);
 
-        switch (input1) {
+        switch (input1) { //Switch statement to determine which menu option the user selected
             case 1 -> intakeNewDog(scnr);
             case 2 -> intakeNewMonkey(scnr);
             case 3 -> reserveAnimal(scnr);
@@ -66,8 +77,15 @@ public class Driver {
         }
     }
 
-    // This method prints the menu options
-    public static void displayMenu() {
+    /**
+     * Displays the Rescue Animal System Menu for the user to choose options from.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #main(String[])
+     */
+    public static void displayMenu() { // This method prints the menu options
         System.out.println("\n\n");
         System.out.println("\t\t\t\tRescue Animal System Menu");
         System.out.println("[1] Intake a new dog");
@@ -82,8 +100,16 @@ public class Driver {
     }
 
 
-    // Add dogs to a list for testing
-    public static void initializeDogList() {
+    /**
+     * Adds a new dog to the Dog Array List.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #main(String[])
+     * @see #dogList
+     */
+    public static void initializeDogList() { // Add dogs to a list for testing
         Dog dog1 = new Dog("Spot", "German Shepherd", "male", "1", "25.6", "05-12-2019", "United States", "intake", false, "United States");
         Dog dog2 = new Dog("Rex", "Great Dane", "male", "3", "35.2", "02-03-2020", "United States", "Phase I", false, "United States");
         Dog dog3 = new Dog("Bella", "Chihuahua", "female", "4", "25.6", "12-12-2019", "Canada", "in service", true, "Canada");
@@ -94,8 +120,16 @@ public class Driver {
     }
 
 
-    // Add monkeys to a list for testing
-    public static void initializeMonkeyList() {
+    /**
+     * Adds a new Monkey to the Monkey Array List.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #main(String[])
+     * @see #monkeyList
+     */
+    public static void initializeMonkeyList() { // Add monkeys to a list for testing
         Monkey monkey1 = new Monkey("Johnny", "Macaque", "5.9", "8.9", "20.6", "male", "1", "16.3", "08-10-2019", "Canada", "Phase I", true, "Canada");
         Monkey monkey2 = new Monkey("Breck", "Capuchin", "5.1", "11.2", "21.7", "female", "1", "17.1", "06-04-2020", "Mexico", "in service", false, "Mexico");
         Monkey monkey3 = new Monkey("Earl", "Tamarin", "5.7", "7.7", "19.3", "male", "3", "17.2", "12-05-2021", "United States", "intake", false, "United States");
@@ -107,10 +141,15 @@ public class Driver {
 
 
     /**
-     * Intakes new dog information from user input and stores in dogList
-     * @param scanner takes input from user to store in variables 
+     * Intakes new dog information from user input and stores in dogList.
+     * 
+     * @param scanner takes input from user to store in variables
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #dogList
      */
-
     public static void intakeNewDog(Scanner scanner) {
         System.out.println("What is the dog's name?");
         String name = scanner.nextLine();
@@ -138,7 +177,7 @@ public class Driver {
         System.out.println("Is the dog reserved?"); //Prompt user for dogs reservation status
         boolean res = scanner.nextBoolean();
         scanner.nextLine();
-        System.out.println("What is the dog's in Service Country?"); //Prompt user for dogs service country
+        System.out.println("What is the dog's in service country?"); //Prompt user for dogs service country
         String isc = scanner.nextLine();
         Dog newdog = new Dog(name, breed, gender, age, weight, acqDate, acqCountry, ts, res, isc);
         dogList.add(newdog);
@@ -146,10 +185,15 @@ public class Driver {
     }
 
     /**
-     * Intakes new Monkey information from user input and stores in monkeyList
+     * Intakes new Monkey information from user input and stores in monkeyList.
+     * 
      * @param scanner takes input from user to store in variables
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #monkeyList
      */
-
     public static void intakeNewMonkey(Scanner scanner) {
         System.out.println("What is the monkey's name?");
         String name = scanner.nextLine();
@@ -188,7 +232,7 @@ public class Driver {
             System.out.println("Is the monkey reserved?"); //Prompt user for monkey's reservation status
             boolean res = scanner.nextBoolean();
             scanner.nextLine();
-            System.out.println("What is the monkey's in Service Country?"); //Prompt user for monkey's service country
+            System.out.println("What is the monkey's in service country?"); //Prompt user for monkey's service country
             String isc = scanner.nextLine();
             Monkey newMonkey = new Monkey(name, species, tailLength, height, bodyLength, gender, age, weight, acqDate, acqCountry, ts, res, isc);
             monkeyList.add(newMonkey);
@@ -196,10 +240,16 @@ public class Driver {
     }
 
     /**
-     * Reserves animals by prompting user for animal type and checks reserved status to see who's available
+     * Reserves animals by prompting user for animal type and checks reserved status to see who's available.
+     * 
      * @param scanner takes user input for animal type
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #dogList
+     * @see #monkeyList
      */
-
     public static void reserveAnimal(Scanner scanner) {
         boolean isValidSelection = true;
 
@@ -257,7 +307,12 @@ public class Driver {
     }
 
     /**
-     * prints list of all dogs in dogList
+     * Prints a list of all dogs in the dogList array.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #dogList
      */
     public static void printDogs() {
         System.out.println("Dogs: ");
@@ -268,7 +323,12 @@ public class Driver {
     }
 
     /**
-     * prints list of all monkeys in monkeyList
+     * Prints a list of all monkeys in the monkeyList array.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #monkeyList
      */
     public static void printMonkey() {
         System.out.println("Monkey's: ");
@@ -279,7 +339,14 @@ public class Driver {
     }
 
     /**
-     * prints list of animals that are not reserved and In Service
+     * Prints a list of all animals (dog and monkey) that are both reserved and in service.
+     * 
+     * @author Kyle Reddoch
+     * @version %I%, %G%
+     * 
+     * @see #dogList
+     * @see #monkeyList
+     * @see #reserveAnimal
      */
     public static void printAnimals() {
         System.out.println("Name - " + "Training Status - " + "Acquisition Country - " + " Reservation Status");

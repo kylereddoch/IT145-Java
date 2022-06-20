@@ -1,133 +1,278 @@
-/**
- * Author: Kyle Reddoch
- * Professor: Ahlam Alhweiti
- * Southern New Hampshire University
- * Version: 1.0
- * 
- */
-
 package Grazioso;
 
 import java.lang.String;
 
+/**
+ * <p>The RescueAnimal class is used to create the RescueAnimal object. The RescueAnimal object is used to store information about the rescue animal that is processed in through Grazioso Salvare.</p>
+ * <p>This was created for my Java programming class at Southern New Hampshire University (IT145).</p>
+ * <p>Professor: Ahlam Alhweiti</p>
+ * 
+ * @author Kyle Reddoch
+ * @version %I%, %G%
+ */ 
 public class RescueAnimal {
 
     // Instance variables
-    private String name;
-    private String animalType;
-    private String gender;
-    private String age;
-    private String weight;
-    private String acquisitionDate;
-    private String acquisitionCountry;
-	private String trainingStatus;
-    private boolean reserved;
-	private String inServiceCountry;
+    private String name; // Name of the rescue animal
+    private String animalType; // Animal type of the rescue animal
+    private String gender; // Gender of the rescue animal
+    private String age; // Age of the rescue animal
+    private String weight; // Weight of the rescue animal
+    private String acquisitionDate; // Acquisition date of the rescue animal
+    private String acquisitionCountry; // Acquisition country of the rescue animal
+	private String trainingStatus; 	// Training status of the rescue animal
+    private boolean reserved; // Reserved status of the rescue animal
+	private String inServiceCountry; // In service country of the rescue animal
 
 
-    // Constructor
+    /**
+	 * <p>This is the constructor for the RescueAnimal class. It is used to create the RescueAnimal object.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 */
     public RescueAnimal() {
     }
 
-	// Accessor Method for name
-	public String getName() {
+	/**
+	 * <p>This is the accessor method for the name of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return name of the rescue animal
+	 */
+	public String getName() { // Accessor method for name
 		return name;
 	}
 
-	// Mutator Method for name
-	public void setName(String name) {
+	/**
+	 * <p>This is the mutator method for the name of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param name name of the rescue animal
+	 */
+	public void setName(String name) { // Mutator method for name
 		this.name = name;
 	}
 
-	// Accessor Method for animalType
-	public String getAnimalType() {
+	/**
+	 * <p>This is the accessor method for the animal type of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return animal type of the rescue animal
+	 */
+	public String getAnimalType() { // Accessor method for animalType
 		return animalType;
 	}
 
-	// Mutator Method for animalType
-	public void setAnimalType(String animalType) {
+	/**
+	 * <p>This is the mutator method for the animal type of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param animalType animal type of the rescue animal
+	 */
+	public void setAnimalType(String animalType) { // Mutator method for animalType
 		this.animalType = animalType;
 	}
 
-	// Accessor Method for gender
-	public String getGender() {
+	/**
+	 * <p>This is the accessor method for the gender of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return gender of the rescue animal
+	 */ 
+	public String getGender() { // Accessor method for gender
 		return gender;
 	}
 
 
-	// Mutator type for gender
-	public void setGender(String gender) {
+	/**
+	 * <p>This is the mutator method for the gender of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param gender gender of the rescue animal
+	 */
+	public void setGender(String gender) { // Mutator method for gender
 		this.gender = gender;
 	}
 
 
-	// Accessor Method for age
-	public String getAge() {
+	/**
+	 * <p>This is the accessor method for the age of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return age of the rescue animal
+	 */
+	public String getAge() { // Accessor method for age
 		return age;
 	}
 
-	// Mutator Method for age
-	public void setAge(String age) {
+	/**
+	 * <p>This is the mutator method for the age of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param gender age of the rescue animal
+	 */
+	public void setAge(String age) { // Mutator method for age
 		this.age = age;
 	}
 
-	// Accessor Method for weight
-	public String getWeight() {
+	/**
+	 * <p>This is the accessor method for the weight of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return weight of the rescue animal
+	 */
+	public String getWeight() { // Accessor method for weight
 		return weight;
 	}
 
-	// Mutator Method for weight
-	public void setWeight(String weight) {
+	/**
+	 * <p>This is the mutator method for the weight of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param weight weight of the rescue animal
+	 */
+	public void setWeight(String weight) { // Mutator method for weight
 		this.weight = weight;
 	}
 
-	// Accessor Method for acquisitionDate
-	public String getAcquisitionDate() {
+	/**
+	 * <p>This is the accessor method for the acquisition date of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return acquisition date of the rescue animal
+	 */
+	public String getAcquisitionDate() { // Accessor method for acquisitionDate
 		return acquisitionDate;
 	}
 
-	// Mutator Method for acquisitionDate
-	public void setAcquisitionDate(String acquisitionDate) {
+	/**
+	 * <p>This is the mutator method for the acquisition date of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param acquisitionDate acquisition date of the rescue animal
+	 */
+	public void setAcquisitionDate(String acquisitionDate) { // Mutator method for acquisitionDate
 		this.acquisitionDate = acquisitionDate;
 	}
 
-	// Accessor Method for acquisitionCountry
-	public String getAcquisitionLocation() {
+	/**
+	 * <p>This is the accessor method for the acquisition country of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return acquisition country of the rescue animal
+	 */
+	public String getAcquisitionCountry() { // Accessor method for acquisitionCountry
 		return acquisitionCountry;
 	}
 
-	// Mutator Method for acquisitionCountry
-	public void setAcquisitionLocation(String acquisitionCountry) {
+	/**
+	 * <p>This is the mutator method for the acquisition country of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param acquisitionCountry acquisition country of the rescue animal
+	 */
+	public void setAcquisitionCountry(String acquisitionCountry) { // Mutator method for acquisitionCountry
 		this.acquisitionCountry = acquisitionCountry;
 	}
 
-	// Accessor Method for reserved
-	public boolean getReserved() {
+	/**
+	 * <p>This is the accessor method for the reservation status of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return <code>true</code> if reserved, <code>false</code> if not reserved
+	 */
+	public boolean getReserved() { // Accessor method for reserved
 		return reserved;
 	}
 
-	// Mutator Method for reserved
-	public void setReserved(boolean reserved) {
+	/**
+	 * <p>This is the mutator method for the reservation status of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param reserved reservation status of the rescue animal
+	 */
+	public void setReserved(boolean reserved) { // Mutator method for reserved
 		this.reserved = reserved;
 	}
 
-	// Accessor Method for inServiceCountry
-	public String getInServiceLocation() {
+	/**
+	 * <p>This is the accessor method for the "in service" country of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return "in service" country of the rescue animal
+	 */
+	public String getInServiceCountry() { // Accessor method for inServiceCountry
 		return inServiceCountry;
 	}
 
-	// Mutator Method for inServiceCountry
-	public void setInServiceCountry(String inServiceCountry) {
+	/**
+	 * <p>This is the mutator method for the "in service" country of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param inServiceCountry "in service" country of the rescue animal
+	 */
+	public void setInServiceCountry(String inServiceCountry) { // Mutator method for inServiceCountry
 		this.inServiceCountry = inServiceCountry;
 	}
 
-	// Accessor Method for trainingStatus
-	public String getTrainingStatus() {
+	/**
+	 * <p>This is the accessor method for the training status date of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @return training status of the rescue animal
+	 */
+	public String getTrainingStatus() { // Accessor method for trainingStatus
 		return trainingStatus;
 	}
 
-	// Mutator Method for trainingStatus
-	public void setTrainingStatus(String trainingStatus) {
+	/**
+	 * <p>This is the mutator method for the training status date of the rescue animal.</p>
+	 * 
+	 * @author Kyle Reddoch
+	 * @version %I%, %G%
+	 * 
+	 * @param trainingStatus training status of the rescue animal
+	 */
+	public void setTrainingStatus(String trainingStatus) { // Mutator method for trainingStatus
 		this.trainingStatus = trainingStatus;
 	}
 }
