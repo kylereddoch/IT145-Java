@@ -3,9 +3,9 @@ package Grazioso;
 /**
  * <p>This class, which extends the RescueAnimal class, is used to create the Dog object. The Dog object is used to store information about a dog that is processed in through Grazioso Salvare.</p>
  * <p>This was created for my Java programming class at Southern New Hampshire University (IT145).</p>
- * <p>Professor: Ahlam Alhweiti</p>
+ * <p>Professor: David Blair</p>
  * 
- * @author Kyle Reddoch
+ * @author LYNN LYONS
  * @version %I%, %G%
  */
 public class Dog extends RescueAnimal {
@@ -16,7 +16,7 @@ public class Dog extends RescueAnimal {
     /**
      * <p>This is the constructor for the Dog class. It is used to create the Dog object.</p>
      * 
-     * @author Kyle Reddoch
+     * @author LYNN LYONS
      * @version %I%, %G%
      * 
      * @param name Name of the dog
@@ -49,7 +49,7 @@ public class Dog extends RescueAnimal {
     /**
      * <p>This is the accessor method for the breed of the dog.</p>
      * 
-     * @author Kyle Reddoch
+     * @author LYNN LYONS
      * @version %I%, %G%
      * 
      * @return breed of the dog
@@ -61,7 +61,7 @@ public class Dog extends RescueAnimal {
     /**
      * <p>This is the mutator method for the breed of the dog.</p>
      * 
-     * @author Kyle Reddoch
+     * @author LYNN LYONS
      * @version %I%, %G%
      * 
      * @param dogBreed Breed of the dog
@@ -73,7 +73,7 @@ public class Dog extends RescueAnimal {
     /**
      * <p>This is the toString method for the Dog class. It is used to return the information about the dog.</p>
      * 
-     * @author Kyle Reddoch
+     * @author LYNN LYONS
      * @version %I%, %G%
      * 
      * @return String containing the information about the dog
